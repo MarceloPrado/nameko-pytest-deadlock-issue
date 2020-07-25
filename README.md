@@ -7,8 +7,7 @@ The project uses Tornado as a HTTP server. The issue happens when trying to test
 #### How to run it
 
 1. Using [pipenv](https://pipenv.pypa.io/en/stable/), run: `pipenv install`.
-2. Open a pipenv shell: `pipenv shell`.
-3. Run pytest: `pytest`
+2. Run pytest: `pipenv run pytest`
 
 The courotine never finishes.
 
@@ -16,7 +15,7 @@ The courotine never finishes.
 
 After following the instructions above, remove `nameko` package and run the tests again:
 
-1. `pipenv uninstall nameko`
-2. `pytest`
+1. Remove package: `pipenv uninstall nameko`
+2. Re-run tests: `pipenv run pytest`
 
 Notice how the test immediately passes.

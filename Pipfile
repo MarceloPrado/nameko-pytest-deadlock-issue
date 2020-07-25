@@ -9,6 +9,7 @@ pytest-tornado = "*"
 
 [packages]
 tornado = "*"
+nameko = "*"
 
 [requires]
 python_version = "3.8"
