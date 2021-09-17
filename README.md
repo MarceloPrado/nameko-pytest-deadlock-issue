@@ -21,3 +21,5 @@ After following the instructions above, remove `nameko` package and run the test
 2. Re-run tests: `pipenv run pytest`
 
 Notice how the test immediately passes.
+
+Squash test.
