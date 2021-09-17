@@ -22,4 +22,4 @@ After following the instructions above, remove `nameko` package and run the test
 
 Notice how the test immediately passes.
 
-Squash test.
+Squash test. 2.
